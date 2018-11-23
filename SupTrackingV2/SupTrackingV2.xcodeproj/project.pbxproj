@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BEFC51A546CDC78595F0C09 /* Pods_SupTrackingV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7159918B2F275E72B8219D51 /* Pods_SupTrackingV2.framework */; };
+		C4AD05B40C350AB1B63B678D /* Pods_SupTrackingV2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B18E35175C8F9C0B1AC2D3 /* Pods_SupTrackingV2UITests.framework */; };
+		DA3F0C462191BA44007F29BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F0C452191BA44007F29BA /* AppDelegate.swift */; };
+		DA3F0C4D2191BA45007F29BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3F0C4C2191BA45007F29BA /* Assets.xcassets */; };
+		DA3F0C502191BA45007F29BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3F0C4E2191BA45007F29BA /* LaunchScreen.storyboard */; };
+		DA3F0C5B2191BA45007F29BA /* SupTrackingV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F0C5A2191BA45007F29BA /* SupTrackingV2Tests.swift */; };
+		DA3F0C662191BA45007F29BA /* SupTrackingV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F0C652191BA45007F29BA /* SupTrackingV2UITests.swift */; };
+		DA3F0C752191C916007F29BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3F0C732191C916007F29BA /* Main.storyboard */; };
+		DA3F0C792191C94B007F29BA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F0C762191C94A007F29BA /* MenuViewController.swift */; };
+		DA3F0C7B2191C94B007F29BA /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3F0C782191C94B007F29BA /* MapViewController.swift */; };
+		DACA594E2192E0A700A9A085 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACA594D2192E0A700A9A085 /* LoginViewController.swift */; };
+		ED18B4CAF5FED659C9FD7780 /* Pods_SupTrackingV2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C09BE9432F6CD1EFBD904C8 /* Pods_SupTrackingV2Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA3F0C572191BA45007F29BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA3F0C3A2191BA44007F29BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA3F0C412191BA44007F29BA;
+			remoteInfo = SupTrackingV2;
+		};
+		DA3F0C622191BA45007F29BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA3F0C3A2191BA44007F29BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA3F0C412191BA44007F29BA;
+			remoteInfo = SupTrackingV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B26E35401B8213C2B6C9570 /* Pods-SupTrackingV2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupTrackingV2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SupTrackingV2UITests/Pods-SupTrackingV2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		1831F233D214046CDE4D5099 /* Pods-SupTrackingV2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupTrackingV2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SupTrackingV2UITests/Pods-SupTrackingV2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		19281FD202878C0D4364565C /* Pods-SupTrackingV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupTrackingV2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SupTrackingV2/Pods-SupTrackingV2.debug.xcconfig"; sourceTree = "<group>"; };
+		56A93E1EC815B994938B0A87 /* Pods-SupTrackingV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupTrackingV2.release.xcconfig"; path = "Pods/Target Support Files/Pods-SupTrackingV2/Pods-SupTrackingV2.release.xcconfig"; sourceTree = "<group>"; };
+		5CFEF83F6744689D4E7E876B /* Pods-SupTrackingV2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupTrackingV2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SupTrackingV2Tests/Pods-SupTrackingV2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7159918B2F275E72B8219D51 /* Pods_SupTrackingV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupTrackingV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C09BE9432F6CD1EFBD904C8 /* Pods_SupTrackingV2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupTrackingV2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0951B19AEB1FDDE0C18D4FF /* Pods-SupTrackingV2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupTrackingV2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SupTrackingV2Tests/Pods-SupTrackingV2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA3F0C422191BA44007F29BA /* SupTrackingV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupTrackingV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3F0C452191BA44007F29BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA3F0C4C2191BA45007F29BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA3F0C4F2191BA45007F29BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA3F0C512191BA45007F29BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3F0C562191BA45007F29BA /* SupTrackingV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupTrackingV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3F0C5A2191BA45007F29BA /* SupTrackingV2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupTrackingV2Tests.swift; sourceTree = "<group>"; };
+		DA3F0C5C2191BA45007F29BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3F0C612191BA45007F29BA /* SupTrackingV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupTrackingV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3F0C652191BA45007F29BA /* SupTrackingV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupTrackingV2UITests.swift; sourceTree = "<group>"; };
+		DA3F0C672191BA45007F29BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3F0C742191C916007F29BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../SupTracking/SupTracking/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA3F0C762191C94A007F29BA /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../../../SupTracking/SupTracking/MenuViewController.swift; sourceTree = "<group>"; };
+		DA3F0C782191C94B007F29BA /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../../../SupTracking/SupTracking/MapViewController.swift; sourceTree = "<group>"; };
+		DACA594D2192E0A700A9A085 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F8B18E35175C8F9C0B1AC2D3 /* Pods_SupTrackingV2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupTrackingV2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA3F0C3F2191BA44007F29BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEFC51A546CDC78595F0C09 /* Pods_SupTrackingV2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3F0C532191BA45007F29BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED18B4CAF5FED659C9FD7780 /* Pods_SupTrackingV2Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3F0C5E2191BA45007F29BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AD05B40C350AB1B63B678D /* Pods_SupTrackingV2UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BCFBC280CEF35FA0A0B821C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19281FD202878C0D4364565C /* Pods-SupTrackingV2.debug.xcconfig */,
+				56A93E1EC815B994938B0A87 /* Pods-SupTrackingV2.release.xcconfig */,
+				D0951B19AEB1FDDE0C18D4FF /* Pods-SupTrackingV2Tests.debug.xcconfig */,
+				5CFEF83F6744689D4E7E876B /* Pods-SupTrackingV2Tests.release.xcconfig */,
+				1831F233D214046CDE4D5099 /* Pods-SupTrackingV2UITests.debug.xcconfig */,
+				0B26E35401B8213C2B6C9570 /* Pods-SupTrackingV2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D99F42D0FD7E97FAAB28473A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7159918B2F275E72B8219D51 /* Pods_SupTrackingV2.framework */,
+				8C09BE9432F6CD1EFBD904C8 /* Pods_SupTrackingV2Tests.framework */,
+				F8B18E35175C8F9C0B1AC2D3 /* Pods_SupTrackingV2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA3F0C392191BA44007F29BA = {
+			isa = PBXGroup;
+			children = (
+				DA3F0C442191BA44007F29BA /* SupTrackingV2 */,
+				DA3F0C592191BA45007F29BA /* SupTrackingV2Tests */,
+				DA3F0C642191BA45007F29BA /* SupTrackingV2UITests */,
+				DA3F0C432191BA44007F29BA /* Products */,
+				9BCFBC280CEF35FA0A0B821C /* Pods */,
+				D99F42D0FD7E97FAAB28473A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA3F0C432191BA44007F29BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA3F0C422191BA44007F29BA /* SupTrackingV2.app */,
+				DA3F0C562191BA45007F29BA /* SupTrackingV2Tests.xctest */,
+				DA3F0C612191BA45007F29BA /* SupTrackingV2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA3F0C442191BA44007F29BA /* SupTrackingV2 */ = {
+			isa = PBXGroup;
+			children = (
+				DA3F0C452191BA44007F29BA /* AppDelegate.swift */,
+				DA3F0C732191C916007F29BA /* Main.storyboard */,
+				DA3F0C4C2191BA45007F29BA /* Assets.xcassets */,
+				DA3F0C782191C94B007F29BA /* MapViewController.swift */,
+				DA3F0C762191C94A007F29BA /* MenuViewController.swift */,
+				DA3F0C4E2191BA45007F29BA /* LaunchScreen.storyboard */,
+				DA3F0C512191BA45007F29BA /* Info.plist */,
+				DACA594D2192E0A700A9A085 /* LoginViewController.swift */,
+			);
+			path = SupTrackingV2;
+			sourceTree = "<group>";
+		};
+		DA3F0C592191BA45007F29BA /* SupTrackingV2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DA3F0C5A2191BA45007F29BA /* SupTrackingV2Tests.swift */,
+				DA3F0C5C2191BA45007F29BA /* Info.plist */,
+			);
+			path = SupTrackingV2Tests;
+			sourceTree = "<group>";
+		};
+		DA3F0C642191BA45007F29BA /* SupTrackingV2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA3F0C652191BA45007F29BA /* SupTrackingV2UITests.swift */,
+				DA3F0C672191BA45007F29BA /* Info.plist */,
+			);
+			path = SupTrackingV2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA3F0C412191BA44007F29BA /* SupTrackingV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3F0C6A2191BA45007F29BA /* Build configuration list for PBXNativeTarget "SupTrackingV2" */;
+			buildPhases = (
+				5E1F14D28289D16D26C26C52 /* [CP] Check Pods Manifest.lock */,
+				DA3F0C3E2191BA44007F29BA /* Sources */,
+				DA3F0C3F2191BA44007F29BA /* Frameworks */,
+				DA3F0C402191BA44007F29BA /* Resources */,
+				95EB89806F0AA93F48E07D45 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SupTrackingV2;
+			productName = SupTrackingV2;
+			productReference = DA3F0C422191BA44007F29BA /* SupTrackingV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA3F0C552191BA45007F29BA /* SupTrackingV2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3F0C6D2191BA45007F29BA /* Build configuration list for PBXNativeTarget "SupTrackingV2Tests" */;
+			buildPhases = (
+				E47482BCF0129148614AEFE7 /* [CP] Check Pods Manifest.lock */,
+				DA3F0C522191BA45007F29BA /* Sources */,
+				DA3F0C532191BA45007F29BA /* Frameworks */,
+				DA3F0C542191BA45007F29BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA3F0C582191BA45007F29BA /* PBXTargetDependency */,
+			);
+			name = SupTrackingV2Tests;
+			productName = SupTrackingV2Tests;
+			productReference = DA3F0C562191BA45007F29BA /* SupTrackingV2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA3F0C602191BA45007F29BA /* SupTrackingV2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3F0C702191BA45007F29BA /* Build configuration list for PBXNativeTarget "SupTrackingV2UITests" */;
+			buildPhases = (
+				6BCEDFF1099453FBD07ABC4C /* [CP] Check Pods Manifest.lock */,
+				DA3F0C5D2191BA45007F29BA /* Sources */,
+				DA3F0C5E2191BA45007F29BA /* Frameworks */,
+				DA3F0C5F2191BA45007F29BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA3F0C632191BA45007F29BA /* PBXTargetDependency */,
+			);
+			name = SupTrackingV2UITests;
+			productName = SupTrackingV2UITests;
+			productReference = DA3F0C612191BA45007F29BA /* SupTrackingV2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA3F0C3A2191BA44007F29BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Paul BESRET";
+				TargetAttributes = {
+					DA3F0C412191BA44007F29BA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DA3F0C552191BA45007F29BA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DA3F0C412191BA44007F29BA;
+					};
+					DA3F0C602191BA45007F29BA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DA3F0C412191BA44007F29BA;
+					};
+				};
+			};
+			buildConfigurationList = DA3F0C3D2191BA44007F29BA /* Build configuration list for PBXProject "SupTrackingV2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA3F0C392191BA44007F29BA;
+			productRefGroup = DA3F0C432191BA44007F29BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA3F0C412191BA44007F29BA /* SupTrackingV2 */,
+				DA3F0C552191BA45007F29BA /* SupTrackingV2Tests */,
+				DA3F0C602191BA45007F29BA /* SupTrackingV2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA3F0C402191BA44007F29BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3F0C752191C916007F29BA /* Main.storyboard in Resources */,
+				DA3F0C502191BA45007F29BA /* LaunchScreen.storyboard in Resources */,
+				DA3F0C4D2191BA45007F29BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3F0C542191BA45007F29BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3F0C5F2191BA45007F29BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E1F14D28289D16D26C26C52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SupTrackingV2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BCEDFF1099453FBD07ABC4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SupTrackingV2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95EB89806F0AA93F48E07D45 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SupTrackingV2/Pods-SupTrackingV2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SupTrackingV2/Pods-SupTrackingV2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E47482BCF0129148614AEFE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SupTrackingV2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA3F0C3E2191BA44007F29BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3F0C792191C94B007F29BA /* MenuViewController.swift in Sources */,
+				DA3F0C7B2191C94B007F29BA /* MapViewController.swift in Sources */,
+				DACA594E2192E0A700A9A085 /* LoginViewController.swift in Sources */,
+				DA3F0C462191BA44007F29BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3F0C522191BA45007F29BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3F0C5B2191BA45007F29BA /* SupTrackingV2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3F0C5D2191BA45007F29BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA3F0C662191BA45007F29BA /* SupTrackingV2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA3F0C582191BA45007F29BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA3F0C412191BA44007F29BA /* SupTrackingV2 */;
+			targetProxy = DA3F0C572191BA45007F29BA /* PBXContainerItemProxy */;
+		};
+		DA3F0C632191BA45007F29BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA3F0C412191BA44007F29BA /* SupTrackingV2 */;
+			targetProxy = DA3F0C622191BA45007F29BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA3F0C4E2191BA45007F29BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA3F0C4F2191BA45007F29BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DA3F0C732191C916007F29BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA3F0C742191C916007F29BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA3F0C682191BA45007F29BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA3F0C692191BA45007F29BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA3F0C6B2191BA45007F29BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19281FD202878C0D4364565C /* Pods-SupTrackingV2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SupTrackingV2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulbesret.SupTrackingV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA3F0C6C2191BA45007F29BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A93E1EC815B994938B0A87 /* Pods-SupTrackingV2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SupTrackingV2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulbesret.SupTrackingV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA3F0C6E2191BA45007F29BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0951B19AEB1FDDE0C18D4FF /* Pods-SupTrackingV2Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SupTrackingV2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulbesret.SupTrackingV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SupTrackingV2.app/SupTrackingV2";
+			};
+			name = Debug;
+		};
+		DA3F0C6F2191BA45007F29BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CFEF83F6744689D4E7E876B /* Pods-SupTrackingV2Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SupTrackingV2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulbesret.SupTrackingV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SupTrackingV2.app/SupTrackingV2";
+			};
+			name = Release;
+		};
+		DA3F0C712191BA45007F29BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1831F233D214046CDE4D5099 /* Pods-SupTrackingV2UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SupTrackingV2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulbesret.SupTrackingV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SupTrackingV2;
+			};
+			name = Debug;
+		};
+		DA3F0C722191BA45007F29BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B26E35401B8213C2B6C9570 /* Pods-SupTrackingV2UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SupTrackingV2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paulbesret.SupTrackingV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SupTrackingV2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA3F0C3D2191BA44007F29BA /* Build configuration list for PBXProject "SupTrackingV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3F0C682191BA45007F29BA /* Debug */,
+				DA3F0C692191BA45007F29BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3F0C6A2191BA45007F29BA /* Build configuration list for PBXNativeTarget "SupTrackingV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3F0C6B2191BA45007F29BA /* Debug */,
+				DA3F0C6C2191BA45007F29BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3F0C6D2191BA45007F29BA /* Build configuration list for PBXNativeTarget "SupTrackingV2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3F0C6E2191BA45007F29BA /* Debug */,
+				DA3F0C6F2191BA45007F29BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3F0C702191BA45007F29BA /* Build configuration list for PBXNativeTarget "SupTrackingV2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3F0C712191BA45007F29BA /* Debug */,
+				DA3F0C722191BA45007F29BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA3F0C3A2191BA44007F29BA /* Project object */;
+}
